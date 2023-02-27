@@ -1,0 +1,33 @@
+{
+  "name": "profile-generator",
+  "version": "1.0.0",
+  "description": "project 10 that generates a webpage with your team's emails and github profiles",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helenhosse/Profile-Generator.git"
+  },
+  "keywords": [
+    "node",
+    "HTML",
+    "CSS",
+    "inquirer"
+  ],
+  "author": "Helen Hosse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helenhosse/Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/helenhosse/Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4",
+    "jest": "^29.4.3"
+  }
+}
