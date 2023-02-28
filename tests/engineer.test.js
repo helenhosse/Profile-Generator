@@ -1,13 +1,13 @@
-const engineer = require('../lib/engineer');
+const Engineer = require('../lib/engineer');
 
 test('engineer object', () => {
-    const engineer = new engineer('Helen', 27, 'helenhosse@gmail.com', 'helen27');
-    expect (engineer.github).toEqual(expect.any(String));
+    const engineer = new Engineer('Helen', 27, 'helenhosse@gmail.com', 'helen27');
+    expect(engineer.github).toEqual(expect.any(String));
 });
 
 test('engineer github', () => {
-    const engineer = new engineer ('Helen', 27, 'helenhosse@gmail.com', 'Helen27');
-    expect(engineer.getGithub()).toEqual(expect.stringCointaining(engineer.github.toString()));
+    const engineer = new Engineer ('Helen', 27, 'helenhosse@gmail.com', 'Helen27');
+    expect(engineer.getGithub()).toEqual(expect.stringContaining(engineer.github.toString()));
 });
 
 // test('engineer ID', () => {
@@ -21,6 +21,6 @@ test('engineer github', () => {
 // });
 
 test('engineer role', () => {
-    const engineer = new engineer('Helen', 27, 'helenhosse@gmail.com', 'Helen27');
+    const engineer = new Engineer('Helen', 27, 'helenhosse@gmail.com', 'Helen27');
     expect(engineer.getRole()).toEqual("engineer");
 });
