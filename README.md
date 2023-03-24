@@ -14,6 +14,8 @@ I have provided links to the HTML sites and a video that walks through the code 
 
 Video of Walkthrough: https://drive.google.com/file/d/1NO0F1y0YeD0UA-u2Nut1ZIUFKsBN0L92/view
 
+<img src="![Alt text](dist/htmlpreview.png)" alt="photo of deployed workday scheduler>
+
 ## The Result
 I have used HTML, CSS, Bootstrap, Node.js, jest and inquirer
 
